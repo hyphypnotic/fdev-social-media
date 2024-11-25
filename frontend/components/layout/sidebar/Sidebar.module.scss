@@ -1,0 +1,12 @@
+.sidebar {
+    @apply sticky top-0 flex flex-col items-center h-screen w-16 bg-background border-r;
+}
+  
+
+.navItems {
+    @apply flex flex-col items-center space-y-9 ;
+}
+
+.navItems a {
+    @apply transition-colors hover:text-foreground duration-300 ease-in-out transform hover:scale-110;
+}

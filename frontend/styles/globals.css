@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+    .blinking-cursor {
+        display: inline-block;
+        animation: blink 1.45s step-start infinite;
+    }
+
+    @keyframes blink {
+        50% {
+        opacity: 0;
+        }
+    }
+}
+
+
+.html, body {
+    height: 100%;
+}
